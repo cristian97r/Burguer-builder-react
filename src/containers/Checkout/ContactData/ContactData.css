@@ -2,46 +2,14 @@
     margin: 20px auto;
     width: 80%;
     text-align: center;
-    box-shadow: 0 2px 3px rgb(179, 179, 179);
-    border: 1px solid rgb(197, 197, 197);
-    padding: 10px;
-    box-sizing: border-box
-
-
-}
-
-.Input {
-    width: 100%;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
     padding: 10px;
     box-sizing: border-box;
 }
 
-.Label {
-    font-weight: bold;
-    display: block;
-    margin-bottom: 8px;
-}
-
-.Input input,
-.Input select {
-    outline: none;
-    border: 1px solid #ccc;
-    background-color: white;
-    font: inherit;
-    padding: 6px 10px;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-    margin: 15px auto;
-}
-
-.Input input:focus {
-    outline: none;
-    background-color: #ccc;
-}
-
-@media (min-width: 600px){
-    .ContactData{
+@media (min-width: 600px) {
+    .ContactData {
         width: 500px;
     }
 }
